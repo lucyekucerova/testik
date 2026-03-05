@@ -1,0 +1,28 @@
+/* style.css - Dark glassmorphism theme for the animal jumping game */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0d0d0d, #1a1a2e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+#game-wrapper {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+canvas {
+    display: block;
+    background: #222;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+}
